@@ -133,3 +133,15 @@ body {
     padding: 1rem;
     text-align: center;
   }
+
+  .jiko h2{
+    margin-top: 50px;
+    margin-left: 430px;
+  }
+
+  p{
+
+    margin-left: 500px;
+    font-size: 14pt;
+    font-family: "Yu Gothic", "Meiryo", sans-serif;
+  }

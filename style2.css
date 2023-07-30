@@ -22,14 +22,15 @@ header {
   }
   .gaitou_port {
     display: inline-block;
-    width: 300px; /* コンテナの幅 */
+    width: 500px; /* コンテナの幅 */
     margin: 20px; /* 画像と文章の間隔を設定 */
   }
   
   .po {
-    width: 100%;
+    width: 80%;
     height: 70%; /* 画像の高さ */
     object-fit: cover;
+    margin-top: 100px;
     margin-left: 300px;
   }
   
