@@ -1,3 +1,9 @@
+header {
+  background-color: #050505;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
 
   video {
     width: 100pt;
@@ -10,9 +16,10 @@
     padding: 0;
   }
 
-  header {
-    background-color: #050505;
-    color: #fff;
-    padding: 1rem;
-    text-align: center;
+  .kura1{
+    width:1500px;
+    height:900px;
   }
+
+  
+
