@@ -102,8 +102,8 @@ body {
   
   .rectangle {
     position: absolute;
-    bottom: -15px; /* 下にずらす量 */
-    right: -15px;
+    bottom: 0px; /* 下にずらす量 */
+    right: 0px;
     width: 700px; /* 四角形の幅 */
     height: 50px; /* 四角形の高さ */
     background-color: rgba(211, 247, 247, 0.997); /* 赤色の四角形（半透明度 0.7） */
@@ -134,11 +134,8 @@ body {
     text-align: center;
   }
 
-  .jiko{
-    margin-top: 40px;
-  }
 
-  p{
+  .jiko p{
     margin-left: 500px;
     font-size: 1em;
   }
