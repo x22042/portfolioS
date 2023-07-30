@@ -5,26 +5,37 @@ header {
   text-align: center;
 }
 
+body {
+  background-color: #0d0087;
+  color: #fff;
+  text-align: center;
+}
+
   body, html {
     margin: 0;
     padding: 0;
   }
 
   .kura1{
-    width:1500px;
-    height:900px;
+    top: 0;
+    right: 0;
+    width: 100%; /* 写真の幅 */
+    height: 100%; /* 写真の高さ */
+    overflow: hidden;
+    margin-bottom: 200px;
   }
   .gaitou_port {
     display: inline-block;
     width: 700px; /* コンテナの幅 */
     height:1000px;
-    margin: 20px; /* 画像と文章の間隔を設定 */
+    margin-left: 400px; /* 画像と文章の間隔を設定 */
   }
   
   .image-with-text {
     display: flex; /* Flexboxを使って要素を横並びに配置 */
     align-items: center; /* 画像と文章を縦方向に中央揃え */
     gap: 20px; /* 画像と文章の間隔 */
+    margin-left: 400px;
   }
   
   .icon{
@@ -39,5 +50,5 @@ header {
   
   p {
     font-size: 16px;
-    color: #333;
+    color: #ffffff;
   }
