@@ -27,8 +27,7 @@ body {
   .gaitou_port {
     display: inline-block;
     width: 700px; /* コンテナの幅 */
-    height:1000px;
-    margin-left: 400px; /* 画像と文章の間隔を設定 */
+    height:1000px; /* 画像と文章の間隔を設定 */
   }
   
   .image-with-text {
