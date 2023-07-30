@@ -73,7 +73,36 @@ body {
        0% {transform: translateX(0);}
    100% {transform: translateX(-100%);}
   }
+
+  .me {
+    position: relative;
+    width: 300px; /* コンテナの幅 */
+    height: 300px; /* コンテナの高さ */
+  }
   
+  .photo-me {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%; /* 写真の幅 */
+    height: 100%; /* 写真の高さ */
+    overflow: hidden; /* 写真のはみ出しを防止 */
+  }
+  
+  .photo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .rectangle {
+    position: absolute;
+    bottom: -15px; /* 下にずらす量 */
+    right: 0;
+    width: 40px; /* 四角形の幅 */
+    height: 40px; /* 四角形の高さ */
+    background-color: rgba(211, 247, 247, 0.997); /* 赤色の四角形（半透明度 0.7） */
+  }
   nav ul {
     list-style: none;
     padding: 0;
