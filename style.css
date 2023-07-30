@@ -34,6 +34,7 @@ body {
   }
   
   
+  
   .photo{
     display: flex; /* flexboxを使用して要素を横に並べる */
     flex-direction: column; /* 要素を縦に配置する */
@@ -74,10 +75,14 @@ body {
    100% {transform: translateX(-100%);}
   }
 
+  /*me*/
+
   .me {
+    margin-top: 60px;
+    margin-left: 350px;
     position: relative;
-    width: 300px; /* コンテナの幅 */
-    height: 300px; /* コンテナの高さ */
+    width: 1000px; /* コンテナの幅 */
+    height: 600px; /* コンテナの高さ */
   }
   
   .photo-me {
@@ -98,9 +103,9 @@ body {
   .rectangle {
     position: absolute;
     bottom: -15px; /* 下にずらす量 */
-    right: 0;
-    width: 40px; /* 四角形の幅 */
-    height: 40px; /* 四角形の高さ */
+    right: -15px;
+    width: 700px; /* 四角形の幅 */
+    height: 50px; /* 四角形の高さ */
     background-color: rgba(211, 247, 247, 0.997); /* 赤色の四角形（半透明度 0.7） */
   }
   nav ul {
