@@ -66,11 +66,11 @@
     <div class="jiko">
     <p>酒井俊輝です。</p>
     <p>左側にいる人物が私です。</p>
-    <p>webデザインを上手く扱えるようになり、仕事をいただけるまでになりたいです。</p>
+    <p>webデザインを上手く扱えるようになり、世界に発信できるwebsiteを作ります</p>
     <p>今は全然できなくても、いろんなことを知っていきたい。</p>
     </div>
     <script src="script.js"></script>
-    <!-- Your introduction and details about yourself -->
+
   </section>
 
   <section id="contact">
@@ -78,36 +78,36 @@
 
   <h1>お問い合わせフォーム</h1>
   <form action="https://us-central1-web-design-809ef.cloudfunctions.net/contact" method="post">
-    <!--| 学籍番号 | number | 非表示(hidden)項目で学籍番号を入力しておきます。-->
+
     <input type="hidden" name="number" value="X00000">
-    <!--| お名前 | onamae | 名前が入力されます。必須入力です。-->
+
     <div>
       <label for="onamae">お名前</label>
       <input type="text" name="onamae" id="onamae" required>
     </div>
-    <!--| メールアドレス | email |メールアドレスが入力されます。-->
+
     <div>
       <label for="email">メールアドレス</label>
       <input type="email" name="email" id="email">
     </div>
-    <!--| 電話番号 | telno |電話番号が入力されます。-->
+   ]
     <div>
       <label for="telno">電話番号</label>
       <input type="tel" name="telno" id="telno">
     </div>
-    <!--| 返信が必要ですか？ | ismustrep |チェックが入っている場合には担当者より返信があります。-->
+ 
     <div>
       <input type="checkbox" name="ismustrep" id="ismustrep">
       <label for="ismustrep">返信が必要ですか？</label>
     </div>
-    <!--| ご希望の連絡手段 | means |メールの場合:`mail`、電話の場合:`tel`-->
+ 
     <div>
       <input type="radio" name="means" id="means1" value="mail">
       <label for="means1">メール</label>
       <input type="radio" name="means" id="means2" value="tel">
       <label for="means2">電話</label>
     </div>
-    <!--| お問い合わせ種別 | contacttype |「Webサイト作成依頼」「見積もり依頼」「その他お問い合わせ」で値は1,2,3。必須入力です。-->
+]
     <div>
       <label for="contacttype">お問い合わせ種別</label>
       <select name="contacttype" id="contacttype" required>
@@ -116,7 +116,7 @@
         <option value="3">その他お問い合わせ</option>
       </select>
     </div>
-    <!--| お問い合わせ内容 | contacttext |お問い合わせの内容が入ります。500文字程度は入力が可能な状態にしてください。必須入力です。-->
+
     <div>
       <label for="contacttext">お問い合わせ内容</label>
       <textarea name="contacttext" id="contacttext" cols="50" rows="10" required>
